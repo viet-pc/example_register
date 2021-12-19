@@ -63,7 +63,7 @@ class RegisterForm extends FormBase
       $form_state->setErrorByName('email', $this->t('Email không đúng định dạng'));
     }
     if($form_state->getValue('age')  === '10-18'){
-      $form_state->setErrorByName('age', $this->t('Bạn khôn không đủ tuổi'));
+      $form_state->setErrorByName('age', $this->t('Bạn không nhỏ hoen'));
     }
   }
 

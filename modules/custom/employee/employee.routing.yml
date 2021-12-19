@@ -1,7 +1,0 @@
-employee.form:
-  path: '/create-employee'
-  default:
-    _form: '\Drupal\employee\Form\EmployeeForm'
-    _title: 'Create Employee'
-  requirements:
-    _permission: 'access content'
