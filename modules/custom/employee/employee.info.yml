@@ -1,0 +1,6 @@
+name: Employee
+description: This is a Employee Module
+type: module
+core: 8.x
+package: Custom Module
+
